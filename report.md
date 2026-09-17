@@ -1,5 +1,5 @@
 # Manuscripted Title: A Concise and Descriptive Title
-Author 1, Author 2, Author 3
+Author 1, Author 2, Author 3  
 *Facultat d'Informatica de Barcelona, UPC, Barcelona, Spain*
 
 ## Abstract 
