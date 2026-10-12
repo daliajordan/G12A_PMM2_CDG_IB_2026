@@ -108,7 +108,7 @@ Contingency plans for the project's critical risks (full statements and scoring 
 | R6 | High | WP3 | Leave a 2-working-day margin before report writing starts; share partial results early; reassign a member with free capacity. |
 | R7 | Medium | WP4 (4.8, 4.9) | Finish the joint review (4.8) at least one working day before the 26/10 deadline; submit early; keep a verified backup copy of the repo and report. |
 
-## Predecessors - please check
+## Predecessors
 
-Predecessors were inferred from the logical order of the tasks (not recorded in the original file) - please review the `Predecessor` column in each WP table above and flag anything that should be different.
+Predecessors were inferred from the logical order of the tasks, since they were not recorded in the original file; see the `Predecessor` column in each WP table above.
 

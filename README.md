@@ -16,7 +16,7 @@ Study the sequence of the protein PMM2 and compare it with its variant to analyz
 
 ## Specific objectives
 
-The original brainstormed list had six overlapping objectives; they have been merged into four measurable ones for this README (exact original wording kept below for comparison - please check the merge is faithful to what was intended).
+The original brainstormed list had six overlapping objectives; they have been merged into four measurable ones for this README (exact original wording kept below for comparison).
 
 <details>
 <summary>Before (6 objectives, exact original wording)</summary>
@@ -49,7 +49,7 @@ The original brainstormed list had six overlapping objectives; they have been me
 | M6 | Have analyzed the results and defined the conclusions | 22/10/2026 |
 | M7 | Final scientific article submitted | 26/10/2026 |
 
-Milestone wording is the exact original list from `project_bioinfo_objectives.docx` ("Github" kept lowercase as written there); only the dates are new, taken from the corrected Gantt chart ([`gant/v1_frozen_2026-10-09/gantt_v1.md`](gant/v1_frozen_2026-10-09/gantt_v1.md)), where the mapping from each milestone to the task(s) it's based on is documented. Please check M2-M6 map to the right tasks.
+Milestone wording is the exact original list from `project_bioinfo_objectives.docx` ("Github" kept lowercase as written there); only the dates are new, taken from the corrected Gantt chart ([`gant/v1_frozen_2026-10-09/gantt_v1.md`](gant/v1_frozen_2026-10-09/gantt_v1.md)), where the mapping from each milestone to the task(s) it's based on is documented.
 
 ## Project members
 

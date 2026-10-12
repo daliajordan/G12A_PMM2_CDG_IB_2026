@@ -15,7 +15,7 @@ Risk level: 1-2 = Low, 3-5 = Medium, 6-9 = High.
 
 ## Risk register
 
-L x I was recomputed for every row below; all seven match the level originally stated, so no mismatches were found. R4's affected scope was filled in as WP3 + task 4.1 (the cross-explanation session named in its statement) per your instruction - it was blank in the source document.
+L x I was recomputed for every row below; all seven match the level originally stated, so no mismatches were found. R4's affected scope was filled in as WP3 + task 4.1 (the cross-explanation session named in its statement), since it was blank in the source document.
 
 | ID | Risk | Cause | Affected WP | L | I | Score | Level |
 |---|---|---|---|---|---|---|---|

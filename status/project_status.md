@@ -2,8 +2,6 @@
 
 Status values: Completed, In progress, Pending, Backlog, Incident, Canceled. "Not Started" placeholder cells from the source file were cleared to empty. See [`../gant/v1_frozen_2026-10-09/gantt_v1.md`](../gant/v1_frozen_2026-10-09/gantt_v1.md) for the full corrected Gantt and [`../gant/v1_frozen_2026-10-09/risk_analysis.md`](../gant/v1_frozen_2026-10-09/risk_analysis.md) for the risk register.
 
-Open items flagged below with **ASK**: tasks 2.3-2.6 (confirm Pending status) and 3.6 (confirm the rewritten output note).
-
 | Task | Resp. | Plan. start | Plan. finish | Real start | Real finish | Status | Notes |
 |---|---|---|---|---|---|---|---|
 | 1.1 Create the GitHub repository | Dàlia + Salomé | 17/09/2026 | 17/09/2026 | 17/09/2026 | 17/09/2026 | Completed | Shown as "before grid" in the Gantt chart/PNG - 17/09 precedes the 01/10 grid start. |
@@ -15,17 +13,17 @@ Open items flagged below with **ASK**: tasks 2.3-2.6 (confirm Pending status) an
 | 1.7 Review and submission | Dàlia | 08/10/2026 | 09/10/2026 |  |  | Pending | Status set to Pending (planned start 08/10, task not started yet). |
 | 2.1 Search for reviews | Salomé | 01/10/2026 | 05/10/2026 | 02/10/2026 | 06/10/2026 | Completed |  |
 | 2.2 Search for original papers on the mechanism | Salomé | 01/10/2026 | 06/10/2026 | 05/10/2026 | 06/10/2026 | Completed | Real start corrected 03/10 -> 05/10 (03/10 was a Saturday). |
-| 2.3 OMIM: gene-disease relationship | Adriana | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. ASK: please confirm. Output note "(RECORDAR LESHMANIA MEXICANA)" removed as an internal reminder. |
-| 2.4 UniProt and choice of 2 species | Adriana | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. ASK: please confirm. |
-| 2.5 InterPro: domains | Elsa | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. ASK: please confirm. |
-| 2.6 PDB: healthy and variant structure | Elsa | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. ASK: please confirm. |
+| 2.3 OMIM: gene-disease relationship | Adriana | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. Output note "(RECORDAR LESHMANIA MEXICANA)" removed as an internal reminder. |
+| 2.4 UniProt and choice of 2 species | Adriana | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. |
+| 2.5 InterPro: domains | Elsa | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. |
+| 2.6 PDB: healthy and variant structure | Elsa | 06/10/2026 | 13/10/2026 |  |  | Pending | Planned start (06/10) has passed with no real start recorded -> status set to Pending. |
 | 2.7 Reference management | Salomé | 01/10/2026 | 22/10/2026 | 01/10/2026 |  | In progress | Planned dates set to 01/10-22/10 (date was a broken serial/unreadable in the source). Status set to In progress, real start 01/10. Output cleaned: removed "(preparar bibliografia)" and "AMA" -> "BMC". |
 | 3.1 Retrieve FASTA sequences (reference, variant and orthologs) | Dàlia | 13/10/2026 | 15/10/2026 |  |  | Backlog |  |
 | 3.2 Alignments and conservation | Dàlia | 15/10/2026 | 19/10/2026 |  |  | Backlog |  |
 | 3.3 Structural comparison: healthy vs variant | Noah | 13/10/2026 | 19/10/2026 |  |  | Backlog |  |
 | 3.4 Figures | Dàlia + Noah | 20/10/2026 | 22/10/2026 |  |  | Backlog |  |
 | 3.5 Evolutionary and homolog interpretation | Noah | 13/10/2026 | 19/10/2026 |  |  | Backlog |  |
-| 3.6 Limitations of each analysis | Adriana | 20/10/2026 | 22/10/2026 |  |  | Backlog | Planned dates set to 20/10-22/10 (broken serial date in source). Output was only a Catalan note ("conjunt amb la discussion del paper") - rewritten as a description of the actual deliverable. ASK: please confirm the rewrite captures the intent. |
+| 3.6 Limitations of each analysis | Adriana | 20/10/2026 | 22/10/2026 |  |  | Backlog | Planned dates set to 20/10-22/10 (broken serial date in source). Output was only a Catalan note ("conjunt amb la discussion del paper") - rewritten as a description of the actual deliverable. |
 | 4.1 Cross-explanation session | All | 20/10/2026 | 20/10/2026 |  |  | Backlog |  |
 | 4.2 Report outline | Salomé | 16/10/2026 | 16/10/2026 |  |  | Backlog | Planned dates set to 16/10-16/10 (broken serial date in source). "AMA" -> "BMC" in the output text. |
 | 4.3 Introduction | Salomé | 19/10/2026 | 22/10/2026 |  |  | Backlog | Planned dates set to 19/10-22/10 (broken serial date in source). |
