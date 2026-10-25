@@ -6,7 +6,7 @@ A BLASTn search with the reference coding sequence (CDS) identified the RefSeq r
 
 The alignment of the reference and mutant CDS covered the full length of both sequences (741 nt) without gaps and showed 740 identical positions out of 741 (99%). The only difference was a single-nucleotide substitution at position 710, where the reference cytosine is replaced by a thymine (c.710C>T) (Figure 1A). This change converts codon 237 from ACG to ATG.
 
-At the protein level, the reference and mutant sequences (246 residues) were identical at 245 positions out of 246 (99%), again without gaps. The only difference was the replacement of threonine by methionine at position 237 (p.Thr237Met) (Figure 1B). Threonine is a small, polar, uncharged residue with a hydroxyl group that can donate and accept hydrogen bonds, whereas methionine is larger and nonpolar, and its thioether side chain cannot donate hydrogen bonds. Both residues are neutral.
+At the protein level, the reference and mutant sequences (246 residues) were identical at 245 positions out of 246 (99%), again without gaps. The only difference was the replacement of threonine by methionine at position 237 (p.Thr237Met) (Figure 1B). This substitution replaces a small, polar residue with a larger, nonpolar one of the same charge, so position 237 loses the hydroxyl group that allows threonine to donate hydrogen bonds.
 
 ![Figure 1](../figures/Figura_1_Report.png)
 
@@ -18,15 +18,15 @@ The superposition of the wild-type (7O4G) and T237M (7O58) structures gave a glo
 
 ![Figure 2](../figures/Figura_2_Report.png)
 
-**Figure 2. Local structure of wild-type and T237M PMM2 at position 237.** Superposition of the wild-type structure (PDB 7O4G, light blue) and the T237M structure (PDB 7O58, yellow), centred on the α-helix that contains residue 237. Residue 237 is highlighted in dark blue in the wild type and in orange in the mutant, and its side chain is shown as sticks: threonine in the wild type and methionine in the mutant, whose longer side chain contains a sulphur atom (yellow stick). The two backbones overlap almost completely in this region (local backbone displacement of 0.262 Å). Image taken from the conservation report provided by the course.
+**Figure 2. Local structure of wild-type and T237M PMM2 at position 237.** Superposition of the wild-type structure (PDB 7O4G, light blue) and the T237M structure (PDB 7O58, yellow), centred on the α-helix that contains residue 237. Residue 237 is highlighted in dark blue in the wild type and in orange in the mutant, and its side chain is shown as sticks: threonine in the wild type and methionine in the mutant, whose longer side chain contains a sulphur atom (yellow stick). The two backbones overlap almost completely in this region (local backbone displacement of 0.262 Å). Image obtained from internal sources.
 
 ### Cross-species comparison of gene and protein sequences
 
 The human *PMM2* sequences were compared with those of *Leishmania mexicana* (XM_003874496.1 and XP_003874545.1) and *Vicugna pacos* (XM_072942246.1 and XP_072798347.1). The *V. pacos* record corresponds to a predicted mRNA (transcript variant X7) of 5795 nt, in which only nucleotides 62-742 (681 nt) are coding; the rest are untranslated regions.
 
-At the CDS level, the human and *V. pacos* sequences shared 91% identity over 62% of the human CDS. With *L. mexicana*, BLASTn aligned only one region covering 21% of the human CDS (nucleotides 516-668, which encode residues 172-223), with 70% identity (Table 1). Several nucleotide differences between species did not change the encoded amino acid. For example, codons 2, 3, 4, 12, 13, and 14 differ between human and *V. pacos* but encode the same residues in both species.
+At the CDS level, the human sequence was highly similar to that of *V. pacos*, whereas with *L. mexicana* BLASTn aligned only one short region (nucleotides 516-668, which encode residues 172-223) (Table 1). Several nucleotide differences between species did not change the encoded amino acid. For example, codons 2, 3, 4, 12, 13, and 14 differ between human and *V. pacos* but encode the same residues in both species.
 
-At the protein level, similarity was detected along almost the whole sequence. The human and *L. mexicana* proteins shared 57% identity and 71% positives over 97% of the human protein, and the human and *V. pacos* proteins shared 90% identity and 92% positives over 87% of the human protein (Table 1). The *V. pacos* protein contains a 12-residue insertion after human position 59 and ends after the position equivalent to human residue 213, so it lacks the region corresponding to human residues 214-246.
+At the protein level, similarity with both species extended along almost the whole sequence, including *L. mexicana*, for which the CDS alignment had covered only a small part of the gene (Table 1). The *V. pacos* protein contains a 12-residue insertion after human position 59 and ends after the position equivalent to human residue 213, so it lacks the region corresponding to human residues 214-246.
 
 **Table 1. Pairwise similarity of PMM2 between human and two other species.**
 
@@ -51,4 +51,4 @@ The superposition of the human and *L. mexicana* PMM2 structures gave a global R
 
 ![Figure 4](../figures/Figura_4_Report.png)
 
-**Figure 4. Structural comparison of human and *L. mexicana* PMM2.** (A) Superposition of the two structures coloured by local backbone displacement: white indicates regions that overlap closely, and increasingly intense red indicates regions that are further apart in space. Yellow segments were excluded from the superposition. (B) The same superposition coloured by species, with the human structure in blue and the *L. mexicana* structure in green. Images taken from the conservation report provided by the course.
+**Figure 4. Structural comparison of human and *L. mexicana* PMM2.** (A) Superposition of the two structures coloured by local backbone displacement: white indicates regions that overlap closely, and increasingly intense red indicates regions that are further apart in space. Yellow segments were excluded from the superposition. (B) The same superposition coloured by species, with the human structure in blue and the *L. mexicana* structure in green. Image obtained from internal sources.
