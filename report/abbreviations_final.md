@@ -1,7 +1,7 @@
 ## Abbreviations
 
 - 3D: three-dimensional
-- AI: artificial intelligence
+- AI: Artificial Intelligence
 - Arg21: arginine at position 21 of the protein sequence
 - Arg123: arginine at position 123 of the protein sequence
 - Arg141: arginine at position 141 of the protein sequence
