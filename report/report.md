@@ -154,7 +154,7 @@ The superposition of the human and *L. mexicana* PMM2 structures gave a global R
 - Val231: valine at position 231 of the protein sequence
 - WT: wild-type
 
-## Author contributions
+## Declarations
 
 ## References
 
