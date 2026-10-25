@@ -157,10 +157,20 @@ The superposition of the human and *L. mexicana* PMM2 structures gave a global R
 - WT: wild-type
 
 ## Declarations
-
 ### Availability of data and materials
 
-### Author's contribution
+The datasets generated and analyzed during this study (FASTA sequences, alignment outputs, figures and analysis notes) are available in the GitHub repository G12A\_PMM2\_CDG\_IB\_2026 ([https\://github.com/daliajordan/G12A\_PMM2\_CDG\_IB\_2026](https://github.com/daliajordan/G12A_PMM2_CDG_IB_2026)). The sequences and structures analyzed were obtained from public databases: UniProt (O15305), the Protein Data Bank (7O1B and 7O58) and NCBI (accessions given in Methods).
+
+### Author contributions
+
+- AD: Defined the project objectives and the roles of the team, retrieved gene–disease information from OMIM and protein annotation from UniProt, wrote the limitations and the Discussion, and handled the final submission.  
+- DJ: Created and maintained the GitHub repository, built the Gantt chart, performed the sequence alignments and the conservation analysis, prepared the figures, wrote the Results, and designed the outline of the report.  
+- SM: Searched the literature (reviews and original papers), managed the references, and wrote the Background.  
+- ER: Carried out the risk analysis, identified the protein domains with InterPro and selected the wild-type and variant structures in the Protein Data Bank (PDB) and wrote the Abstract.&nbsp;  
+- NQ: Co-built the Gantt chart, compared the wild-type and variant structures, interpreted the evolutionary comparison, prepared the figures, and wrote the Methods.
+
+All authors read and approved the final manuscript.
+
 
 ## References
 
