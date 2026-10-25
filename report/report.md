@@ -156,6 +156,10 @@ The superposition of the human and *L. mexicana* PMM2 structures gave a global R
 
 ## Declarations
 
+### Availability of data and materials
+
+### Author's contribution
+
 ## References
 
 1. Briso-Montiano A *et al.* Insight on molecular pathogenesis and pharmacochaperoning potential in phosphomannomutase 2 deficiency, provided by novel human phosphomannomutase 2 structures. *J Inherit Metab Dis* 2022;45:318–33.
