@@ -107,6 +107,48 @@ The superposition of the human and *L. mexicana* PMM2 structures gave a global R
 
 ## Abbreviations
 
+- 3D: three-dimensional
+- AI: artificial intelligence
+- Arg21: arginine at position 21 of the protein sequence
+- Arg123: arginine at position 123 of the protein sequence
+- Arg141: arginine at position 141 of the protein sequence
+- Asp12: aspartic acid at position 12 of the protein sequence
+- Asp14: aspartic acid at position 14 of the protein sequence
+- Asp181: aspartic acid at position 181 of the protein sequence
+- Asp223: aspartic acid at position 223 of the protein sequence
+- Asp236: aspartic acid at position 236 of the protein sequence
+- BLAST: Basic Local Alignment Search Tool
+- CDG: congenital disorder of glycosylation
+- CDS: coding sequence
+- Dol-P-M: dolichol-phosphate-mannose
+- G16BP: glucose-1,6-bisphosphate
+- GDP: guanosine diphosphate
+- Gly228: glycine at position 228 of the protein sequence
+- *L. mexicana*: *Leishmania mexicana*
+- M16BP: mannose-1,6-bisphosphate
+- M1P: mannose-1-phosphate
+- M6P: mannose-6-phosphate
+- Met: methionine
+- Mg-1: magnesium ion 1
+- Mg²⁺: magnesium cation
+- NCBI: National Center for Biotechnology Information
+- nt: nucleotide
+- OH⁻: hydroxide ion
+- PDB: Protein Data Bank
+- Phe221: phenylalanine at position 221 of the protein sequence
+- PMM2: phosphomannomutase 2
+- PMM2-CDG: PMM2-congenital disorder of glycosylation
+- RMSD: root-mean-square deviation
+- Ser179: serine at position 179 of the protein sequence
+- Ser230: serine at position 230 of the protein sequence
+- T237M: p.Thr237Met variant (threonine replaced by methionine at position 237 of the protein sequence)
+- Thr: threonine
+- Thr16: threonine at position 16 of the protein sequence
+- Thr226: threonine at position 226 of the protein sequence
+- *V. pacos*: *Vicugna pacos*
+- Val231: valine at position 231 of the protein sequence
+- WT: wild-type
+
 ## Author contributions
 
 ## References
