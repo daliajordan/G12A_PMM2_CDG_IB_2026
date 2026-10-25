@@ -166,7 +166,7 @@ The datasets generated and analyzed during this study (FASTA sequences, alignmen
 - AD: Defined the project objectives and the roles of the team, retrieved gene–disease information from OMIM and protein annotation from UniProt, wrote the limitations and the Discussion, and handled the final submission.  
 - DJ: Created and maintained the GitHub repository, built the Gantt chart, performed the sequence alignments and the conservation analysis, prepared the figures, wrote the Results, and designed the outline of the report.  
 - SM: Searched the literature (reviews and original papers), managed the references, and wrote the Background.  
-- ER: Carried out the risk analysis, identified the protein domains with InterPro and selected the wild-type and variant structures in the Protein Data Bank (PDB) and wrote the Abstract.&nbsp;  
+- ER: Carried out the risk analysis, identified the protein domains with InterPro, selected the wild-type and variant structures in the Protein Data Bank (PDB) and wrote the Abstract. 
 - NQ: Co-built the Gantt chart, compared the wild-type and variant structures, interpreted the evolutionary comparison, prepared the figures, and wrote the Methods.
 
 All authors read and approved the final manuscript.
