@@ -8,11 +8,13 @@ Adriana Dotsenko, Dàlia Jordan, Salomé Murillo, Elsa Rosado, Noah Quixal
 
 ## Abstract
 
-Phosphomannomutase 2 (PMM2) is an enzyme that functions as a homodimer and plays an essential role in N-glycosylation by converting mannose-6-phosphate into mannose-1-phosphate, which is required for guanosine diphosphate (GDP)-mannose production and glycan synthesis. Pathogenic variants in PMM2 cause PMM2-congenital disorder of glycosylation (PMM2-CDG), an autosomal recessive disease that affects several organs, particularly the nervous system, due to impaired protein glycosylation. This study aimed to characterize the p.Thr237Met (T237M) variant and investigate the conservation of PMM2 across *Homo sapiens*, *Vicugna pacos*, and *Leishmania mexicana* using bioinformatics tools.
+Background: Phosphomannomutase 2 (PMM2) is an enzyme that functions as a homodimer and plays an essential role in N-glycosylation by converting mannose-6-phosphate into mannose-1-phosphate. Pathogenic variants in PMM2 cause PMM2-congenital disorder of glycosylation (PMM2-CDG), an autosomal recessive disease that affects several organs, particularly the nervous system, due to impaired protein glycosylation. The p.Thr237Met (T237M) variant lies in the α9 helix of the core domain, where Thr237 forms a hydrogen bond with Thr16. This study aimed to characterise the T23M variant and investigate the conservation of PMM2 across *Homo sapiens*, *Vicugna pacos*, and *Leishmania mexicana* using bioinformatics tools.
 
-Sequence alignment identified a single-nucleotide substitution, c.710C\>T, which changes threonine to methionine at position 237\. Furthermore, the structural comparison between wild-type (Protein Data Bank \[PDB\]: 7O1B) and T237M (PDB: 7O58) PMM2 showed that both structures are highly similar, with a global root-mean-square deviation (RMSD) of 0.351 Å and local backbone displacement of 0.262 Å at position 237\. This indicates that the substitution does not substantially alter the overall protein structure. Comparisons across species revealed 90% protein sequence identity between human PMM2 and *V. pacos* over 87% of the human sequence, compared with 57% identity between human PMM2 and *L. mexicana* over 97% coverage. The FDVDGTL motif, which contains important catalytic and magnesium-binding residues, was conserved in all three species.
+Results: Sequence alignment identified a single-nucleotide substitution, c.710C\>T, which changes threonine to methionine at position 237\. The structural comparison between wild-type (Protein Data Bank \[PDB\] : 7O1B) and T237M (PDB: 7O58) PMM2 showed that both structures are highly similar, with a global root-mean-square deviation (RMSD) of 0.351 Å and local backbone displacement of 0.262 Å at position 237\. This indicates that substitution does not substantially alter the overall protein structure. Comparisons across species revealed 90% protein sequence identity between human PMM2 and *V.pacos* over 87% of the human sequence, compared with 57% identity between human PMM2 and *L.mexicana* over 97% coverage. The FDVDGTL motif, which contains important catalytic and magnesium-binding residues, was conserved in all three species. Functional residues annotated in UniProt were also conserved in *L. mexicana* and the analyzed *V. pacos* isoform. Thr237 and several nearby residues were conserved in *L. mexicana*, but it was not possible to assess whether this position was conserved in *V.pacos* because the studied isoform did not contain this region. The structural comparison between human PMM2 and *L. mexicana* PMM2 showed an overall RMSD of 1.66 Å.
 
-Functional residues annotated in UniProt were also conserved in *L. mexicana* and the analyzed *V. pacos* isoform. Thr237 and several nearby residues were conserved in *L. mexicana*, but it was not possible to assess whether this position was conserved in *V. pacos* because the studied isoform did not contain this region. The structural comparison between human PMM2 and *L. mexicana* PMM2 showed an overall RMSD of 1.66 Å. These findings suggest that although T237M does not appear to cause major changes in the protein’s overall structure, replacing threonine with the larger, nonpolar methionine may disrupt the hydrogen bond with Thr16 and affect local interactions and enzyme function. Further experiments are needed to confirm these potential effects.
+Conclusions: These findings suggest that although T237M does not appear to cause major changes in the protein’s overall structure, replacing threonine with the larger, nonpolar methionine may disrupt the hydrogen bond with Thr16 and affect local interactions and enzyme function. Further experiments are needed to confirm these potential effects.
+
+
 ## Keywords
 
 PMM2, PMM2-CDG, T237M, missense variant, sequence alignment
@@ -195,10 +197,20 @@ Also, there were gaps in the sequence alignment so that regions we should have a
 - WT: wild-type
 
 ## Declarations
-
 ### Availability of data and materials
 
-### Author's contribution
+The datasets generated and analyzed during this study (FASTA sequences, alignment outputs, figures and analysis notes) are available in the GitHub repository G12A\_PMM2\_CDG\_IB\_2026 ([https\://github.com/daliajordan/G12A\_PMM2\_CDG\_IB\_2026](https://github.com/daliajordan/G12A_PMM2_CDG_IB_2026)). The sequences and structures analyzed were obtained from public databases: UniProt (O15305), the Protein Data Bank (7O1B and 7O58) and NCBI (accessions given in Methods).
+
+### Author contributions
+
+- AD: Defined the project objectives and the roles of the team, retrieved gene–disease information from OMIM and protein annotation from UniProt, wrote the limitations and the Discussion, and handled the final submission.  
+- DJ: Created and maintained the GitHub repository, built the Gantt chart, performed the sequence alignments and the conservation analysis, prepared the figures, wrote the Results, and designed the outline of the report.  
+- SM: Searched the literature (reviews and original papers), managed the references, and wrote the Background.  
+- ER: Carried out the risk analysis, identified the protein domains with InterPro, selected the wild-type and variant structures in the Protein Data Bank (PDB) and wrote the Abstract. 
+- NQ: Co-built the Gantt chart, compared the wild-type and variant structures, interpreted the evolutionary comparison, prepared the figures, and wrote the Methods.
+
+All authors read and approved the final manuscript.
+
 
 ## References
 
