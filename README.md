@@ -49,7 +49,7 @@ The original brainstormed list had six overlapping objectives; they have been me
 | M6 | Have analyzed the results and defined the conclusions | 22/10/2026 |
 | M7 | Final scientific article submitted | 26/10/2026 |
 
-Milestone wording is the exact original list from `project_bioinfo_objectives.docx` ("Github" kept lowercase as written there); only the dates are new, taken from the corrected Gantt chart ([`gant/v1_frozen_2026-10-09/gantt_v1.md`](gant/v1_frozen_2026-10-09/gantt_v1.md)), where the mapping from each milestone to the task(s) it's based on is documented.
+Milestone wording is the exact original list from `project_bioinfo_objectives.docx` ("Github" kept lowercase as written there); only the dates are new, taken from the corrected Gantt chart ([`gantt/v1_frozen_2026-10-09/gantt_v1.md`](gantt/v1_frozen_2026-10-09/gantt_v1.md)), where the mapping from each milestone to the task(s) it's based on is documented.
 
 ## Project members
 
@@ -96,8 +96,7 @@ G12A_PMM2_CDG_IB_2026/
     ├── v3_frozen_2026-10-26/
     │   └── gantt_live_26-10-2026_14,30h.xlsx
     └── live/
-        ├── gantt_live.xlsx   - kept up to date until 26/10/2026
-        └── gantt_live_25-10-2026_19,50h.xlsx
+        └── gantt_live.xlsx   - kept up to date until 26/10/2026
 ```
 
 See [`gantt/`](gantt/) for the Gantt chart and risk analysis, [`status/`](status/) for task tracking, and [`report/`](report/) for the manuscript.

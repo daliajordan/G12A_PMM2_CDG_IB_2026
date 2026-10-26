@@ -1,6 +1,6 @@
 # Task tracking - Updated up to 08.10
 
-Status values: Completed, In progress, Pending, Backlog, Incident, Canceled. "Not Started" placeholder cells from the source file were cleared to empty. See [`../gant/v1_frozen_2026-10-09/gantt_v1.md`](../gant/v1_frozen_2026-10-09/gantt_v1.md) for the full corrected Gantt and [`../gant/v1_frozen_2026-10-09/risk_analysis.md`](../gant/v1_frozen_2026-10-09/risk_analysis.md) for the risk register.
+Status values: Completed, In progress, Pending, Backlog, Incident, Canceled. "Not Started" placeholder cells from the source file were cleared to empty. See [`../gantt/v1_frozen_2026-10-09/gantt_v1.md`](../gantt/v1_frozen_2026-10-09/gantt_v1.md) for the full corrected Gantt and [`../gantt/v1_frozen_2026-10-09/risk_analysis.md`](../gantt/v1_frozen_2026-10-09/risk_analysis.md) for the risk register.
 
 | Task | Resp. | Plan. start | Plan. finish | Real start | Real finish | Status | Notes |
 |---|---|---|---|---|---|---|---|
