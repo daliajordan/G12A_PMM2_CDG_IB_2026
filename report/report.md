@@ -6,7 +6,7 @@ Adriana Dotsenko, Dàlia Jordan, Salomé Murillo, Elsa Rosado, Noah Quixal
 
 ## Abstract
 
-**Background -** Phosphomannomutase 2 (PMM2) is an enzyme that functions as a homodimer and plays an essential role in N-glycosylation by converting mannose-6-phosphate into mannose-1-phosphate. Pathogenic variants in PMM2 cause PMM2-congenital disorder of glycosylation (PMM2-CDG), an autosomal recessive disease that affects several organs, particularly the nervous system, due to impaired protein glycosylation. The p.Thr237Met (T237M) variant lies in the α9 helix of the core domain, where Thr237 forms a hydrogen bond with Thr16. This study aimed to characterise the T237M variant and investigate the conservation of PMM2 across *Homo sapiens*, *Vicugna pacos*, and *Leishmania mexicana* using bioinformatics tools.
+**Background -** Phosphomannomutase 2 (PMM2) is an enzyme that functions as a homodimer and plays an essential role in N-glycosylation by converting mannose-6-phosphate into mannose-1-phosphate. Pathogenic variants in PMM2 cause PMM2-congenital disorder of glycosylation (PMM2-CDG), an autosomal recessive disease that affects several organs, particularly the nervous system, due to impaired protein glycosylation. The p.Thr237Met (T237M) variant lies in the α9 helix of the core domain, where Thr237 forms a hydrogen bond with Thr16. This study aimed to characterize the T237M variant and investigate the conservation of PMM2 across *Homo sapiens*, *Vicugna pacos*, and *Leishmania mexicana* using bioinformatics tools.
 
 **Results -** Sequence alignment identified a single-nucleotide substitution, c.710C\>T, which changes threonine to methionine at position 237\. The structural comparison between wild-type (Protein Data Bank \[PDB\]: 7O1B) and T237M (PDB: 7O58) PMM2 showed that both structures are highly similar, with a global root-mean-square deviation (RMSD) of 0.351 Å and local backbone displacement of 0.262 Å at position 237\. This indicates that the substitution does not substantially alter the overall protein structure. Comparisons across species revealed 90% protein sequence identity between human PMM2 and *V. pacos* over 87% of the human sequence, compared with 57% identity between human PMM2 and *L.mexicana* over 97% coverage. The FDVDGTL motif, which contains important catalytic and magnesium-binding residues, was conserved in all three species. Functional residues annotated in UniProt were also conserved in *L. mexicana* and the analyzed *V. pacos* isoform. Thr237 and several nearby residues were conserved in *L. mexicana*, but it was not possible to assess whether this position was conserved in *V.pacos* because the studied isoform did not contain this region. The structural comparison between human PMM2 and *L. mexicana* PMM2 showed an overall RMSD of 1.66 Å.
 
@@ -30,26 +30,6 @@ Furthermore, a way to classify missense variants into six different mechanisms o
 The variant studied in this report is the p.Thr237Met (T237M). This variant was found in nine out of 137 patients with PMM2-CDG (Pajusalu et al. 2024). It is located on the α9 helix of the core domain of each subunit. Based on the superposition of the WT and the T237M, there are no major changes in the overall fold. The dimers are essentially identical, with low root-mean-square deviation (RMSD) values. The side chain of T237 forms a hydrogen bond with T16, which is situated on the loop that coordinates Mg-1 (the catalytic magnesium ion). By replacing threonine with methionine, the bond is lost, affecting both stability and catalysis (Briso-Montiano et al. 2022).
 
 Although the structural effect of T237M on PMM2 has been described, it is less clear whether position 237 is conserved across species. The objective of this report is to identify the variant at the gene and protein level and compare the human PMM2 with two homologues from Leishmania mexicana and Vicugna pacos using bioinformatics tools.
-
-## Methods
-
-For the analysis of protein structure and differences, UniProt record O15305 was used to reference the PMM2 Human WT protein, and PDB records 7O1B and 7O58 were used for the PMM2 human WT and mutant proteins respectively.
-
-For the purpose of sequence alignments, FASTA sequences for the Human PMM2 WT and mutant sequences, both Coding DNA Sequence (CDS) and protein sequences, were provided by internal sources and can be found in the supplemental information.
-
-For the homologs, FASTA files associated with the following NCBI accessions were used: for the *Leishmania mexicana* CDS XM_003874496.1 and protein XP_003874545.1, and for the *Vicugna pacos* CDS XM_072942246.1 and protein XP_072798347.1. These were found by setting the Human PMM2 WT CDS in the Query box of BLASTn, and limiting the search to each of the two species while choosing the algorithm for "somewhat similar sequences". Analogously for the protein sequences, they were found by setting the Human PMM2 protein in the Query box of BLASTp, and limiting the search to each of the two species while choosing the algorithm for "somewhat similar sequences".
-
-In order to generate the sequence alignments between the Human WT and mutant sequences, the Basic Local Alignment Tool (BLAST) was used. For the Coding DNA Sequences this was done with the BLASTn (Align two or more sequences), copying the Human WT CDS FASTA file into the Query section and the human mutant CDS into the Subject Sequence block, then running the alignment. Afterwards, the process was repeated the BLAStp interface, human WT protein sequence and human mutant protein sequence, in order to compare the protein sequences.
-
-To analyze the WT vs Mutant sequence alignments, the “Pairwise with dots for alignments” alignment view was chosen. This view sets the “Query” as the reference above with the “Subject” sequence below. The “Subject” sequence consists of dots in the aligned residues that are identical in both sequences and, when they’re not, specifies what the differing residue is. Each sequence alignment was accompanied by its identity and coverage values, calculated by BLAST.
-
-For the ortholog comparison, the first step was to cut the nucleotides before the start codon and after the stop codon from the *V. pacos* FASTA file, as it was otherwise about 5000 nucleotides longer than the CDS of the other two species. The alignment itself was done with the Clustal Omega multiple sequence alignment tool (version 1.2.4). Two alignments were done separately. First the CDS alignment by adding the human sequence, the *L. mexicana*, and the *V. pacos* CDSs from their respective FASTA files into the “Input sequence” box accompanied by their FASTA headers. Secondly the protein sequence alignment by repeating the process with the protein sequence FASTA files.
-
-The Clustal Omega sequence alignment tool marks under each aligned set of nucleotides whether the elements of the position are the same (*) or not ( ). For proteins, in the case that the amino acids are different, it also differentiates whether they are from similar (:) or vaguely similar (.) physicochemical groups. These marks were used to differentiate the highly conserved regions from the less conserved regions.
-
-The analysis of the aligned sequences was complemented with a report on the structural alignment of the PMM2 Human WT protein sequence and the *L. mexicana* protein sequence, provided by internal sources. This report includes statistical data on: sequence identity, percentage of residues with coinciding physicochemical class, Global RMSD, primary and secondary structure alignment, local backbone displacement, and 3D imaging of the two proteins superimposed. It also includes information on the disease-associated variant of the protein, including the protein mutation type and location, local backbone displacement of the variant, global WT-Mutant RMSD, and imaging of the WT and mutant proteins superimposed specifically around the mutated region.
-
-During this project the Claude Artificial Intelligence (AI) tool was used to format citation of bibliography, adapt our texts to Markdown format, and check for grammatical errors.
 
 ## Results
 
@@ -150,9 +130,29 @@ The identity percentages included gap positions in the alignment, so the regions
 
 Lastly, the analyses cannot fully confirm the mechanisms of the variant T237M, which has been reported to affect PMM2 function. Further experiments on the protein stability and activity would be needed to clarify how the substitution affects the protein. Although the structural comparisons with PMM2 revealed similar folds between the species, additional analysis of the enzymatic activity would be needed to determine if the function is conserved.
 
-### Conclusions
+## Conclusions
 
 In this project, a variant of the *PMM2* gene was studied at the nucleotide and protein level and compared with human homologues, *Leishmania mexicana* and *Vicugna pacos*, using bioinformatics tools. The main conclusions are the following. The mutant and the wild-type sequences differ in one position. The variant is a nucleotide substitution (c.710C>T) in the *PMM2* sequence which makes a change in codon 237, replacing the amino acid threonine with methionine. This substitution did not have a major impact on the structure of PMM2 (global RMSD of 0.351 Å and local backbone displacement of 0.262 Å). Residue 237 is not located in the Mg<sup>2+</sup> binding sites, so an alteration in catalytic activity may occur indirectly through changes in the protein's structure rather than directly from the active site. Also, the FDVDGTL motif, which contains the DxD motif, was found to be conserved in the three species. Thr237 was conserved in *L. mexicana* but it could not be determined in *V. pacos* because of the isoform. *Homo sapiens* and *L. mexicana* showed a very similar fold (1.66 Å) despite having 57% sequence identity. So, it indicates that the structure of PMM2 was highly conserved in other organisms. The loss of the hydrogen bond between Thr16, in the loop that coordinates the magnesium ion, and Thr237 may alter PMM2 (Briso-Montiano et al. 2022). However, more specific analysis of the hydrogen bond, enzymatic activity and measurements of the stability of the variant would be needed to confirm.
+
+## Methods
+
+For the analysis of protein structure and differences, UniProt record O15305 (UniProt Consortium 2026) was used to reference the PMM2 Human WT protein, and PDB records 7O1B and 7O58 (RCSB Protein Data Bank 2026) were used for the human PMM2 WT and mutant proteins, respectively.
+
+For the purpose of sequence alignments, FASTA sequences for the human PMM2 WT and mutant sequences, both coding sequence (CDS) and protein sequences, were provided by internal sources and can be found in the supplemental information.
+
+For the homologues, FASTA files associated with the following NCBI accessions were used: for the *Leishmania mexicana* CDS XM_003874496.1 and protein XP_003874545.1, and for the *Vicugna pacos* CDS XM_072942246.1 and protein XP_072798347.1. These were found by setting the human PMM2 WT CDS in the Query box of BLASTn, and limiting the search to each of the two species while choosing the algorithm for "somewhat similar sequences". Analogously for the protein sequences, they were found by setting the human PMM2 protein in the Query box of BLASTp, and limiting the search to each of the two species while choosing the algorithm for "somewhat similar sequences".
+
+In order to generate the sequence alignments between the Human WT and mutant sequences, the Basic Local Alignment Search Tool (BLAST) (National Center for Biotechnology Information 2026) was used. For the Coding DNA Sequences this was done with the BLASTn (Align two or more sequences), copying the Human WT CDS FASTA file into the Query section and the human mutant CDS into the Subject Sequence block, then running the alignment. Afterwards, the process was repeated the BLASTp interface, human WT protein sequence and human mutant protein sequence, in order to compare the protein sequences.
+
+To analyse the WT vs Mutant sequence alignments, the “Pairwise with dots for alignments” alignment view was chosen. This view sets the “Query” as the reference above with the “Subject” sequence below. The “Subject” sequence consists of dots in the aligned residues that are identical in both sequences and, when they are not, specifies what the differing residue is. Each sequence alignment was accompanied by its identity and coverage values, calculated by BLAST.
+
+For the orthologue comparison, the first step was to cut the nucleotides before the start codon and after the stop codon from the *V. pacos* FASTA file, as it was otherwise about 5000 nucleotides longer than the CDS of the other two species. The alignment itself was done with the Clustal Omega multiple sequence alignment tool (version 1.2.4) (European Bioinformatics Institute 2026). Two alignments were done separately. First the CDS alignment by adding the human sequence, the *L. mexicana*, and the *V. pacos* CDSs from their respective FASTA files into the “Input sequence” box accompanied by their FASTA headers. Secondly the protein sequence alignment by repeating the process with the protein sequence FASTA files.
+
+The Clustal Omega sequence alignment tool marks under each aligned set of nucleotides whether the elements of the position are the same (\*) or not ( ). For proteins, in the case that the amino acids are different, it also differentiates whether they are from similar (:) or vaguely similar (.) physicochemical groups. These marks were used to differentiate the highly conserved regions from the less conserved regions.
+
+The analysis of the aligned sequences was complemented with a report on the structural alignment of the human PMM2 WT protein sequence and the *L. mexicana* protein sequence, provided by internal sources. This report includes statistical data on: sequence identity, percentage of residues with coinciding physicochemical class, global RMSD, primary and secondary structure alignment, local backbone displacement, and 3D imaging of the two proteins superimposed. It also includes information on the disease-associated variant of the protein, including the protein mutation type and location, local backbone displacement of the variant, global WT-Mutant RMSD, and imaging of the WT and mutant proteins superimposed specifically around the mutated region.
+
+Generative artificial intelligence (AI) was used as a support tool during the preparation of this report. Claude (Anthropic) was used to explain bioinformatics and biological concepts, to review and correct drafts written by the authors (grammar, spelling, consistency of terminology and of data between sections, and adherence to the journal style), to suggest alternative wording for some sentences, which the authors then evaluated and edited, to advise on how to search for and cite the literature, and to format the document and the reference list. All analyses, results, and interpretations were performed and verified by the authors against the original data and the cited sources, and all commits to the project repository were made by the authors. The authors take full responsibility for the content of this report.
 
 ## Abbreviations
 
@@ -160,19 +160,23 @@ In this project, a variant of the *PMM2* gene was studied at the nucleotide and 
 - AI: artificial intelligence
 - Arg21: arginine at position 21 of the protein sequence
 - Arg123: arginine at position 123 of the protein sequence
+- Arg134: arginine at position 134 of the protein sequence
 - Arg141: arginine at position 141 of the protein sequence
 - Asp12: aspartic acid at position 12 of the protein sequence
 - Asp14: aspartic acid at position 14 of the protein sequence
 - Asp181: aspartic acid at position 181 of the protein sequence
+- Asp209: aspartic acid at position 209 of the protein sequence
 - Asp223: aspartic acid at position 223 of the protein sequence
 - Asp236: aspartic acid at position 236 of the protein sequence
 - BLAST: Basic Local Alignment Search Tool
 - CDG: congenital disorder of glycosylation
 - CDS: coding sequence
+- DxD: Asp-x-Asp motif (x = any amino acid)
 - Dol-P-M: dolichol-phosphate-mannose
 - G16BP: glucose-1,6-bisphosphate
 - GDP: guanosine diphosphate
 - Gly228: glycine at position 228 of the protein sequence
+- *H. sapiens*: *Homo sapiens*
 - *L. mexicana*: *Leishmania mexicana*
 - M16BP: mannose-1,6-bisphosphate
 - M1P: mannose-1-phosphate
@@ -182,7 +186,7 @@ In this project, a variant of the *PMM2* gene was studied at the nucleotide and 
 - Mg²⁺: magnesium cation
 - NCBI: National Center for Biotechnology Information
 - nt: nucleotide
-- OH⁻: hydroxide ion
+- OMIM: Online Mendelian Inheritance in Man
 - PDB: Protein Data Bank
 - Phe221: phenylalanine at position 221 of the protein sequence
 - PMM2: phosphomannomutase 2
@@ -218,9 +222,8 @@ All authors read and approved the final manuscript.
 
 1. \*\*\*Briso-Montiano A *et al.* Insight on molecular pathogenesis and pharmacochaperoning potential in phosphomannomutase 2 deficiency, provided by novel human phosphomannomutase 2 structures. *J Inherit Metab Dis* 2022;45:318–33.
 2. European Bioinformatics Institute. *Clustal Omega*. https://www.ebi.ac.uk/jdispatcher/msa/clustalo (23 October 2026, date last accessed).
-3. European Bioinformatics Institute. *InterPro*. https://www.ebi.ac.uk/interpro (16 October 2026, date last accessed).
-4. National Center for Biotechnology Information. *Basic Local Alignment Search Tool (BLAST)*. https://blast.ncbi.nlm.nih.gov (22 October 2026, date last accessed).
-5. \*\*Oliveira T *et al.* A comprehensive update of genotype–phenotype correlations in PMM2-CDG: insights from molecular and structural analyses. *Orphanet J Rare Dis* 2025;20:207.
-6. \*Pajusalu S *et al.* Genotype/phenotype relationship: lessons from 137 patients with PMM2-CDG. *Hum Mutat* 2024;2024:8813121.
-7. RCSB Protein Data Bank. *RCSB PDB: Protein Data Bank*. https://www.rcsb.org (23 October 2026, date last accessed).
-8. UniProt Consortium. *UniProt: the Universal Protein Knowledgebase*. https://www.uniprot.org (22 October 2026, date last accessed).
+3. National Center for Biotechnology Information. *Basic Local Alignment Search Tool (BLAST)*. https://blast.ncbi.nlm.nih.gov (22 October 2026, date last accessed).
+4. \*\*Oliveira T *et al.* A comprehensive update of genotype–phenotype correlations in PMM2-CDG: insights from molecular and structural analyses. *Orphanet J Rare Dis* 2025;20:207.
+5. \*Pajusalu S *et al.* Genotype/phenotype relationship: lessons from 137 patients with PMM2-CDG. *Hum Mutat* 2024;2024:8813121.
+6. RCSB Protein Data Bank. *RCSB PDB: Protein Data Bank*. https://www.rcsb.org (23 October 2026, date last accessed).
+7. UniProt Consortium. *UniProt: the Universal Protein Knowledgebase*. https://www.uniprot.org (22 October 2026, date last accessed).
