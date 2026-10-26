@@ -1,4 +1,4 @@
-# Analysis of the effect of PMM2 variants on PMM2-CDG
+# Bioinformatic characterization of the *PMM2* p.Thr237Met variant: sequence conservation and structural comparison
 
 Analysis of the effect of PMM2 variants on PMM2-CDG
 
