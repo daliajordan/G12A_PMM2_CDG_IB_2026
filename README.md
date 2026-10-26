@@ -69,21 +69,35 @@ Responsibilities and Background are reproduced in full from `project_bioinfo_obj
 G12A_PMM2_CDG_IB_2026/
 ├── README.md                 - this file
 ├── .gitignore
+├── GitNotesForTeam.md        - basic git commands for the team
 ├── report/
-│   └── report.md             - BMC Bioinformatics-style report skeleton
+│   ├── report.md             - final manuscript (BMC Bioinformatics format)
+│   └── report drafts/        - section drafts merged into report.md, plus the report organisation table
+├── figures/                  - figures referenced in the report (Figura_1_Report.png to Figura_4_Report.png)
+├── references/               - papers cited in the report
+│   └── supplementary research/ - other papers consulted
+├── supplementary information/ - material cited in the report as internal sources
+│   ├── FASTA files/          - CDS and protein sequences (human WT and mutant, V. pacos, L. mexicana)
+│   ├── Information gathering/ - OMIM, InterPro and PDB searches, role of the mutation
+│   ├── UNIPROT/              - choice of the 2 species
+│   ├── analysis/             - lab questions, structural and evolutionary comparisons, conservation HTML
+│   └── research_notes.pdf
 ├── status/
 │   └── project_status.md     - task tracking table, updated up to 08/10/2026
-├── gant/
-│   ├── README.md             - explains frozen vs. live
-│   ├── v1_frozen_2026-10-09/ - Gantt + risk analysis as submitted 09/10/2026
-│   │   ├── gantt_v1.xlsx
-│   │   ├── gantt_v1.png
-│   │   ├── gantt_v1.md
-│   │   └── risk_analysis.md
-│   └── live/
-│       └── gantt_live.xlsx   - kept up to date until 26/10/2026
-├── references/                - bibliography (BMC format)
-└── figures/                   - figures referenced in the report
+└── gantt/
+    ├── README.md             - explains frozen vs. live
+    ├── v1_frozen_2026-10-09/ - Gantt + risk analysis as submitted 09/10/2026
+    │   ├── gantt_v1.xlsx
+    │   ├── gantt_v1.png
+    │   ├── gantt_v1.md
+    │   └── risk_analysis.md
+    ├── v2_frozen_2026-10-25/
+    │   └── gantt_live_25-10-2026_19,50h.xlsx
+    ├── v3_frozen_2026-10-26/
+    │   └── gantt_live_26-10-2026_14,30h.xlsx
+    └── live/
+        ├── gantt_live.xlsx   - kept up to date until 26/10/2026
+        └── gantt_live_25-10-2026_19,50h.xlsx
 ```
 
-See [`gant/`](gant/) for the Gantt chart and risk analysis, [`status/`](status/) for task tracking, and [`report/`](report/) for the manuscript.
+See [`gantt/`](gantt/) for the Gantt chart and risk analysis, [`status/`](status/) for task tracking, and [`report/`](report/) for the manuscript.
