@@ -1,12 +1,16 @@
 # Gantt chart - frozen vs. live
 
-This folder holds two versions of the project Gantt chart:
+This folder holds the following versions of the project Gantt chart:
 
 - **[`v1_frozen_2026-10-09/`](v1_frozen_2026-10-09/)** - the version submitted on 09/10/2026 for grading. It is not edited again; it is the record of what was planned at that point in time.
   - [`gantt_v1.xlsx`](v1_frozen_2026-10-09/gantt_v1.xlsx) - the corrected Gantt workbook (task table, day-by-day grid, `Holidays` sheet, WP and project summary rows).
   - [`gantt_v1.png`](v1_frozen_2026-10-09/gantt_v1.png) - a chart rendered from the same data, readable directly on GitHub.
   - [`gantt_v1.md`](v1_frozen_2026-10-09/gantt_v1.md) - the chart embedded plus a Markdown table per work package (owner, predecessor, planned dates, working days, output).
   - [`risk_analysis.md`](v1_frozen_2026-10-09/risk_analysis.md) - the risk register and the R1-R7 risk statements.
+- **[`v2_frozen_2026-10-25/`](v2_frozen_2026-10-25/)** - copy of the live Gantt as of 25/10/2026, 19:50h.
+  - [`gantt_live_25-10-2026_19,50h.xlsx`](v2_frozen_2026-10-25/gantt_live_25-10-2026_19,50h.xlsx)
+- **[`v3_frozen_2026-10-26/`](v3_frozen_2026-10-26/)** - copy of the live Gantt as of 26/10/2026, 14:30h.
+  - [`gantt_live_26-10-2026_14,30h.xlsx`](v3_frozen_2026-10-26/gantt_live_26-10-2026_14,30h.xlsx)
 - **[`live/`](live/)** - the version the team keeps updating as the project progresses, up to the final submission on 26/10/2026.
   - [`gantt_live.xlsx`](live/gantt_live.xlsx) - starts as a copy of `gantt_v1.xlsx`; real start/end dates and status are updated here as tasks move, without touching the frozen v1 copy.
 
